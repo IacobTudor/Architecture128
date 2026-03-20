@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 set(SOURCES main.cpp)
 
-set(NASM "C:/Users/User/AppData/Local/bin/NASM/nasm.exe")
+set(NASM "") # Path to NASM
 
 file(GLOB ASM_SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/asm/*.asm")
 
