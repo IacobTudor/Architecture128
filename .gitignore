@@ -1,0 +1,14 @@
+# build folders
+cmake-build-*/
+build/
+
+# CLion / IDE
+.idea/
+
+# compiled files
+*.exe
+*.o
+*.obj
+
+# system files
+.DS_Store
